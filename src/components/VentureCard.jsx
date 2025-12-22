@@ -24,13 +24,13 @@ const VentureCard = ({ venture, index = 0 }) => {
       <div className="p-6 flex flex-col flex-1">
         {/* Header */}
         <div className="flex items-start justify-between mb-4">
-          <div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center shrink-0 border border-gray-100">
+          {/* <div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center shrink-0 border border-gray-100"> */}
             {venture.logo_url ? (
-              <img src={venture.logo_url} alt={venture.name} className="w-8 h-8 object-contain" />
+              <img src={venture.logo_url} alt={venture.name} className="w-14 h-14 object-contain" />
             ) : (
               <Building2 className="w-6 h-6 text-[#1e3a8a]/40" />
             )}
-          </div>
+          {/* </div> */}
           <span className="text-[10px] font-bold tracking-wider text-[#1e3a8a] bg-[#1e3a8a]/5 px-2 py-1 rounded-full uppercase">
             {venture.vertical}
           </span>
