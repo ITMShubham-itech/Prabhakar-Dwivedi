@@ -72,13 +72,13 @@ const VentureProfile = () => {
               transition={{ duration: 0.5 }}
             >
               <div className="flex items-center gap-4 mb-6">
-                <div className="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10">
+                {/* <div className="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10"> */}
                   {venture.logo_url ? (
-                    <img src={venture.logo_url} alt="Logo" className="w-8 h-8 object-contain" />
+                    <img src={venture.logo_url} alt="Logo" className="w-16 h-16 object-contain" />
                   ) : (
                     <Building2 className="w-8 h-8 text-white" />
                   )}
-                </div>
+                {/* </div> */}
                 <span className="bg-[#d4af37] text-[#0f172a] text-xs font-bold px-3 py-1 rounded-full">
                   {venture.vertical}
                 </span>
