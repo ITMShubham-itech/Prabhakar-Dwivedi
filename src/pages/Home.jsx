@@ -7,7 +7,6 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import VentureCard from '@/components/VentureCard';
 import { db } from '@/lib/store';
-import heroImage from "../../public/images/ceo.png";
 
 /**
  * Normalize DB vertical values (CORE/TECH/STRATEGIC) -> UI tab values (core/technology/strategic)
@@ -210,7 +209,7 @@ const Home = () => {
                   <img
                     className="relative rounded-2xl shadow-2xl w-full h-[500px] object-cover"
                     alt="Mr. Prabhakar Dwivedi - CEO professional portrait"
-                    src={heroImage}
+                    src="../../public/CEO.png"
                   />
                 </div>
               </motion.div>
