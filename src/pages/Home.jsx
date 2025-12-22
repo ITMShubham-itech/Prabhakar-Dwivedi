@@ -209,7 +209,7 @@ const Home = () => {
                   <img
                     className="relative rounded-2xl shadow-2xl w-full h-[500px] object-cover"
                     alt="Mr. Prabhakar Dwivedi - CEO professional portrait"
-                    src="../../public/CEO.png"
+                    src="/CEO.png"
                   />
                 </div>
               </motion.div>
