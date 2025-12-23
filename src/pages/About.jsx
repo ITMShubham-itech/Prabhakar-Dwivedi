@@ -53,8 +53,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Mr. Prabhakar Dwivedi - CEO Biography & Credentials</title>
-        <meta name="description" content="Learn about Mr. Prabhakar Dwivedi's distinguished career, credentials including B.Tech, M.Tech, Chartered Engineer status, and 20–25 years of leadership experience." />
+        <title>Er. Prabhakar Dwivedi, Prabhakar Dwivedi Founder & CEO and leading Seven multi-disciplinary Civil Engineering, Architectural, Construction, IT & Technology Companies, tycoon, Business Leader, businessman tycoon, investor, angel investors</title>
+        <meta name="description" content="Founder & CEO and leading Seven multi-disciplinary Civil Engineering, Architectural, Construction, IT & Technology Companies like 1. PD Consulting Engineers Pvt. Ltd.- Project Management Consultancy & Design Consultant, 2. BSH Infra Pvt. Ltd.- Civil, structure, finishing and interiors, MEP Work, 3. Sristech Designers and Consultants Pvt. Ltd.- Architectural Design & Environmental Study, Audit Consultant, 
+4. Sristech Movies Pvt Ltd- Elevating Cinematic Excellence Album Song, Movies, 5. PDCE Sristech Testing & Research Laboratory Pvt. Ltd. - Specializes in various Testing & Research Laboratory for Construction materials and surveys services, 6. Ultimate iTech Pvt. Ltd.- Our IT & technology arm, comprising three subsidiaries:  6.a- Eimager- Employee & Employer verification platform.
+ 6.b- ITM Indian Trade Mart- leading online B2B marketplace and platform, serving as the pivotal link between buyers and suppliers,  6.c- Startup and Business India- Startup Mentorship, Project Management, investment & Funding, 7. BSH Reality Pvt. Ltd. - Real estate development, Builders, Property Dealer, Property Management, tycoon, Business Leader, businessman tycoon, investor, angel investors." />
       </Helmet>
 
       <div className="pt-20">
@@ -67,7 +69,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="text-center"
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Mr. Prabhakar Dwivedi</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">About Er. Prabhakar Dwivedi</h1>
               <p className="text-xl text-white/80 max-w-3xl mx-auto">
                 A distinguished career spanning infrastructure, engineering, technology, and business leadership
               </p>
@@ -86,7 +88,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Biography</h2>
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  Mr. Prabhakar Dwivedi is a seasoned CEO and business leader with 20–25 years of comprehensive experience across infrastructure development, engineering consultancy, real estate, and technology ventures. His career has been defined by execution excellence, strategic vision, and the ability to build and scale organizations that deliver consistent value.
+                  Er. Prabhakar Dwivedi is a seasoned CEO and business leader with 20–25 years of comprehensive experience across infrastructure development, engineering consultancy, real estate, and technology ventures. His career has been defined by execution excellence, strategic vision, and the ability to build and scale organizations that deliver consistent value.
                 </p>
                 <p>
                   With advanced qualifications including B.Tech in Civil Engineering, M.Tech in Structural Engineering, and an MBA, coupled with professional certifications as a Chartered Structural Engineer, Chartered Engineer, and Chartered Valuer, Mr. Dwivedi brings a unique combination of technical depth and business acumen to his leadership roles.

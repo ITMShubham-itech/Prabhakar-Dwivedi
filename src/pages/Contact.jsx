@@ -89,8 +89,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Mr. Prabhakar Dwivedi - Business Enquiries & Collaboration</title>
-        <meta name="description" content="Get in touch with Mr. Prabhakar Dwivedi for business collaboration, investment opportunities, and professional enquiries." />
+        <title>Er. Prabhakar Dwivedi, Prabhakar Dwivedi Founder & CEO and leading Seven multi-disciplinary Civil Engineering, Architectural, Construction, IT & Technology Companies, tycoon, Business Leader, businessman tycoon, investor, angel investors</title>
+        <meta name="description" content="Founder & CEO and leading Seven multi-disciplinary Civil Engineering, Architectural, Construction, IT & Technology Companies like 1. PD Consulting Engineers Pvt. Ltd.- Project Management Consultancy & Design Consultant, 2. BSH Infra Pvt. Ltd.- Civil, structure, finishing and interiors, MEP Work, 3. Sristech Designers and Consultants Pvt. Ltd.- Architectural Design & Environmental Study, Audit Consultant, 
+4. Sristech Movies Pvt Ltd- Elevating Cinematic Excellence Album Song, Movies, 5. PDCE Sristech Testing & Research Laboratory Pvt. Ltd. - Specializes in various Testing & Research Laboratory for Construction materials and surveys services, 6. Ultimate iTech Pvt. Ltd.- Our IT & technology arm, comprising three subsidiaries:  6.a- Eimager- Employee & Employer verification platform.
+ 6.b- ITM Indian Trade Mart- leading online B2B marketplace and platform, serving as the pivotal link between buyers and suppliers,  6.c- Startup and Business India- Startup Mentorship, Project Management, investment & Funding, 7. BSH Reality Pvt. Ltd. - Real estate development, Builders, Property Dealer, Property Management, tycoon, Business Leader, businessman tycoon, investor, angel investors." />
       </Helmet>
 
       <div className="pt-20">
