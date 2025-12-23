@@ -160,7 +160,7 @@ const Home = () => {
                 </div>
 
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-                  {content?.hero?.headline || 'Mr. Prabhakar Dwivedi'}
+                  {content?.hero?.headline || 'Er. Prabhakar Dwivedi'}
                 </h1>
 
                 <p className="text-xl lg:text-2xl text-gray-700 font-medium mb-6">
