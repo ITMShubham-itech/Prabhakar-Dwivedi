@@ -134,7 +134,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>{seo?.title || 'Mr. Prabhakar Dwivedi - CEO Portfolio'}</title>
+        <title>{seo?.title || 'Er. Prabhakar Dwivedi - CEO Portfolio'}</title>
         <meta name="description" content={seo?.description || ''} />
       </Helmet>
 
@@ -208,7 +208,7 @@ const Home = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a8a] to-[#d4af37] rounded-2xl transform rotate-3"></div>
                   <img
                     className="relative rounded-2xl shadow-2xl w-full h-[500px] object-cover"
-                    alt="Mr. Prabhakar Dwivedi - CEO professional portrait"
+                    alt="Er. Prabhakar Dwivedi - CEO professional portrait"
                     src="/CEO.png"
                   />
                 </div>
