@@ -82,7 +82,7 @@ export const db = {
     // Fallback defaults if DB is empty
     if (!content.hero.headline) {
       content.hero = {
-        headline: 'Mr. Prabhakar Dwivedi',
+        headline: 'Er. Prabhakar Dwivedi',
         subheadline: 'Execution-led leadership across Infrastructure & Technology',
         ctaText: 'Connect for Business',
         ctaLink: '/contact'
