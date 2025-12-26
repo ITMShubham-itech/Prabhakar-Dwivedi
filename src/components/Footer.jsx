@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Youtube, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,9 +17,58 @@ const Footer = () => {
                 <div className="text-xs text-white/70">Founder & CEO</div>
               </div>
             </div>
+
             <p className="text-white/80 text-sm leading-relaxed">
               Execution-led leadership across Infrastructure & Technology with 20–25 years of experience.
             </p>
+
+            {/* Social Media Icons */}
+            <div className="flex items-center space-x-4 mt-4">
+              <a
+                href="https://www.linkedin.com/in/er-prabhakar-dwivedi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-[#0A66C2] transition"
+              >
+                <Linkedin size={18} />
+              </a>
+
+              <a
+                href="https://www.youtube.com/@PrabhakarDwivedi7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-red-600 transition"
+              >
+                <Youtube size={18} />
+              </a>
+
+              <a
+                href="https://www.facebook.com/er.prabhakardwivedi7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-blue-500 transition"
+              >
+                <Facebook size={18} />
+              </a>
+
+              <a
+                href="https://www.instagram.com/er.prabhakardwivedi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-pink-500 transition"
+              >
+                <Instagram size={18} />
+              </a>
+
+              <a
+                href="https://x.com/pk_dwivedi7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/70 hover:text-white transition"
+              >
+                <Twitter size={18} />
+              </a>
+            </div>
           </div>
 
           <div>
@@ -47,28 +96,44 @@ const Footer = () => {
           <div>
             <span className="text-white font-semibold text-sm mb-4 block">Contact</span>
             <div className="space-y-3">
+
               <div className="flex items-start space-x-3">
                 <Mail size={16} className="text-[#d4af37] mt-0.5 shrink-0" />
-                <span className="text-white/80 text-sm">Available via contact form</span>
+                <a
+                  href="mailto:hello@prabhakardwivedi.in"
+                  className="text-white/80 text-sm hover:text-white transition"
+                >
+                  hello@prabhakardwivedi.in
+                </a>
               </div>
+
+              <div className="flex items-start space-x-3">
+                <Mail size={16} className="text-[#d4af37] mt-0.5 shrink-0" />
+                <a
+                  href="mailto:admin@prabhakardwivedi.in"
+                  className="text-white/80 text-sm hover:text-white transition"
+                >
+                  admin@prabhakardwivedi.in
+                </a>
+              </div>
+
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-[#d4af37] mt-0.5 shrink-0" />
                 <span className="text-white/80 text-sm">Pan-India Operations</span>
               </div>
-              <div className="flex items-start space-x-3">
-                {/* <Linkedin size={16} className="text-[#d4af37] mt-0.5 shrink-0" /> */}
-                <a
-                  href="https://www.linkedin.com/in/er-prabhakar-dwivedi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start space-x-3 hover:opacity-100"
-                >
-                  <Linkedin size={16} className="text-[#d4af37] mt-0.5 shrink-0" />
-                  <span className="text-white/80 text-sm hover:text-white transition">
-                    Connect on LinkedIn
-                  </span>
-                </a>
-              </div>
+
+              <a
+                href="https://www.linkedin.com/in/er-prabhakar-dwivedi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start space-x-3 hover:opacity-100"
+              >
+                <Linkedin size={16} className="text-[#d4af37] mt-0.5 shrink-0" />
+                <span className="text-white/80 text-sm hover:text-white transition">
+                  Connect on LinkedIn
+                </span>
+              </a>
+
             </div>
           </div>
         </div>
@@ -78,10 +143,6 @@ const Footer = () => {
             <p className="text-white/60 text-sm text-center md:text-left">
               © 2025 Prabhakar Dwivedi. All rights reserved.
             </p>
-            <div className="flex space-x-6 text-sm text-white/60">
-              <span className="hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
-              <span className="hover:text-white cursor-pointer transition-colors">Terms of Service</span>
-            </div>
           </div>
         </div>
       </div>

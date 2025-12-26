@@ -82,7 +82,8 @@ const Contact = () => {
       icon: Linkedin,
       title: 'Professional Network',
       description: 'Connect on LinkedIn for professional networking',
-      action: 'LinkedIn Profile'
+      action: 'LinkedIn Profile',
+      link: 'https://www.linkedin.com/in/er-prabhakar-dwivedi/'
     }
   ];
 
@@ -131,7 +132,20 @@ const Contact = () => {
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">{method.title}</h3>
                   <p className="text-gray-600 mb-4">{method.description}</p>
-                  <span className="text-sm text-[#1e3a8a] font-medium">{method.action}</span>
+                  {method.link ? (
+                    <a
+                      href={method.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-[#1e3a8a] font-medium"
+                    >
+                      {method.action}
+                    </a>
+                  ) : (
+                    <span className="text-sm text-[#1e3a8a] font-medium">
+                      {method.action}
+                    </span>
+                  )}
                 </motion.div>
               ))}
             </div>
