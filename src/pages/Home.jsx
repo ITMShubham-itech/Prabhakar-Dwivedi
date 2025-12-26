@@ -247,7 +247,7 @@ const Home = () => {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Leadership Philosophy</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                {content?.about?.leadershipThesis || 'Driving growth through strategic vision and operational excellence.'}
+                {content?.about?.leadershipThesis || 'I believe effective leadership lies in the ability to translate vision into disciplined execution. My approach focuses on building strong systems, empowering accountable teams, and maintaining hands-on governance to ensure clarity, consistency, and results. I emphasize structured decision-making, ethical practices, and operational excellence while navigating complex projects and evolving business environments. By aligning long-term strategy with on-ground realities, I aim to create sustainable value for businesses, stakeholders, and the communities we serve, while building organizations that are resilient, scalable, and future-ready.'}
               </p>
             </motion.div>
           </div>
