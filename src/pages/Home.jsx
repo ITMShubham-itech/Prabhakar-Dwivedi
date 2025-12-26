@@ -241,14 +241,45 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Leadership Thesis */}
+        {/* Leadership Philosophy */}
         <section className="py-20 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Leadership Philosophy</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                {content?.about?.leadershipThesis || 'I believe effective leadership lies in the ability to translate vision into disciplined execution. My approach focuses on building strong systems, empowering accountable teams, and maintaining hands-on governance to ensure clarity, consistency, and results. I emphasize structured decision-making, ethical practices, and operational excellence while navigating complex projects and evolving business environments. By aligning long-term strategy with on-ground realities, I aim to create sustainable value for businesses, stakeholders, and the communities we serve, while building organizations that are resilient, scalable, and future-ready.'}
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Leadership Philosophy
+              </h2>
+
+              <p className="text-gray-600 max-w-2xl mx-auto mb-10">
+                A practical approach to leadership focused on execution, accountability, and long-term value creation
               </p>
+
+              <div className="max-w-4xl mx-auto">
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  I believe effective leadership lies in the ability to translate vision into disciplined execution across
+                  complex and diverse business environments. Leading multiple multi-disciplinary organizations spanning
+                  engineering, architecture, construction, testing, real estate, technology platforms, and creative ventures
+                  has reinforced my belief that strong governance, structured decision-making, and accountability are essential
+                  for sustainable growth.
+                </p>
+
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  My approach focuses on building robust systems, empowering teams with clear ownership, and maintaining
+                  hands-on oversight to ensure quality, timelines, and ethical standards are consistently upheld. Operating
+                  across varied sectors and geographies has shaped my emphasis on adaptability, collaboration, and long-term
+                  thinking while balancing technical depth with strategic clarity.
+                </p>
+
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  By aligning long-term strategy with on-ground realities, I aim to create organizations that scale responsibly,
+                  deliver measurable impact, and generate lasting value for clients, stakeholders, and the communities we
+                  serve—while remaining resilient, agile, and future-ready in an evolving business landscape.
+                </p>
+              </div>
             </motion.div>
           </div>
         </section>
